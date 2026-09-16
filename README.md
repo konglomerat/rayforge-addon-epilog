@@ -1,14 +1,8 @@
-# Epilog Zing for Rayforge
+![Rayforge — Epilog Zing](docs/images/readme-header.png)
 
 Send laser jobs from [Rayforge](https://github.com/barebaric/rayforge) to an
 **Epilog Zing 24 / Zing 6030** over Ethernet. Prepare your design in Rayforge,
 upload it to the laser, and start the job at the machine.
-
-<p align="center">
-  <img src="docs/images/epilog-zing-24.png"
-       alt="Epilog Zing 24 laser cutter at Konglomerat"
-       width="640">
-</p>
 
 ## Getting started
 
