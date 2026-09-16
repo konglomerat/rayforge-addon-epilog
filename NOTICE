@@ -1,0 +1,9 @@
+Epilog Zing add-on for Rayforge
+Copyright (c) 2026 Robert Gühne and contributors
+
+The driver and its tests were developed in a Rayforge development checkout
+and extracted into this standalone add-on. Rayforge is MIT-licensed:
+https://github.com/barebaric/rayforge
+
+Protocol reference: LibLaserCut by Thomas Oster and contributors.
+No LibLaserCut source files or Java dependency are distributed here.

@@ -1,0 +1,29 @@
+api_version: 1
+device:
+  name: Epilog Zing 24 (6030)
+  vendor: Epilog
+  model: Zing 24 / 6030
+  description: >-
+    Epilog Zing with Ethernet job upload. Start jobs at the laser.
+    Hardware validation is pending. Focus and air assist are manual.
+machine:
+  driver: EpilogZingDriver
+  axis_extents: [609.6, 304.8]
+  origin: top_left
+  has_z: false
+  home_on_start: false
+  max_cut_speed: 6000
+  max_travel_speed: 6000
+  capabilities: [LASER]
+  driver_args:
+    host: ''
+    port: 515
+    resolution: '500'
+    frequency: 1000
+  heads:
+    - max_power: 100
+      wavelength_nm: 10600
+      laser_type: co2
+      frame_power_percent: 0.0
+      focus_power_percent: 0.0
+      spot_size_mm: [0.1, 0.1]

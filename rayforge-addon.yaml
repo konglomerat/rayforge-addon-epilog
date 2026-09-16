@@ -1,0 +1,14 @@
+name: epilog_zing
+display_name: Epilog Zing
+description: Ethernet vector job upload for the Epilog Zing 24 / 6030
+api_version: 21
+author:
+  name: Robert Gühne
+  email: ''
+provides:
+  worker: epilog_zing.worker
+  frontend: epilog_zing.frontend
+license:
+  name: MIT
+default_state: enabled
+maturity: experimental

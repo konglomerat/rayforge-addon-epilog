@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="10mm" height="10mm" viewBox="0 0 10 10">
+  <title>Testrechteck 10 x 10 mm</title>
+  <rect x="0" y="0" width="10" height="10"
+        fill="none" stroke="black" stroke-width="0.01"/>
+</svg>
